@@ -1,0 +1,14 @@
+html, body, input, form {
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  vertical-align: top;
+}
+input[type=button], input[type=submit], input[type=file], button {
+  cursor: pointer;  /* 鼠标：手型 */
+  appearance: none; /* 去默认风格 */
+}
+input {
+  outline: none; /* 去掉点击后边框颜色 */
+}
